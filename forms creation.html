@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>form using css</title>
+</head>
+<link rel="stylesheet" href="form2decor.css">
+<body>
+    <h1 id="det">PATIENT DETAILS</h1>
+    <h3>
+    <label>FIRST NAME:</label>
+    <input type="text" class="texttype" placeholder="Enter your first name"><br>
+    <br>
+    <label>FIRST NAME:</label>
+    <input type="text" class="texttype" placeholder="Enter your last name"><br>
+    <br>
+    <label>RESIDENTIAL ADDRESS:</label>
+    <textarea class="texttype" placeholder="Enter your current address" cols="40" rows="4"></textarea><br>
+    <br>
+    <label>PHONE NUMBER:</label>
+    <input type="number" class="texttype"><br>
+</h3>
+<label>EMAIL:</label>
+<input type="email" class="mail"><br>
+<br>
+<div class="dt">
+<label>DATE OF FORM FILLING</label>
+<input type="datetime">
+<br>
+<label>PREVIOUSLY DEALT HEALTH ISSUES</label>
+<br>
+<br>
+<label>yes</label>
+<input type="radio" name="yep">
+<label>no</label>
+<input type="radio" name="yep">
+</div>
+<br>
+<br><div class="yeww">
+<label>TICK THOSE DISEASES YOU HAD BEEN AFFECTED PREVIOUSLY</label><br>
+    <input type="checkbox">Diabetus<br>
+    <input type="checkbox">Malaria<br>
+    <input type="checkbox">Pneumonia<br>
+</div>
+<br>
+<br>
+<div class="hey">
+    <label style="color:blue"><b>HAVE YOU UNDERGONE ANY TESTS OR SURGERIES PREVIOUSLY</b><BR>
+    IF SO KINDLY DESCRIBE ABOUT IT<br></div></label>
+    <input type="text" maxlength="10" class="hello">
+</div>
+<br>
+<br>
+<label>HOW DID YOU COME TO KNOW ABOUT THIS HOSPITAL?</label>
+<select>
+    <option>select</option>
+    <option>friends</option>
+    <option>family</option>
+    <option>random</option>
+</select>
+<br>
+<br>
+<input type="submit" onclick="alert('your form has been submitted')"> <input type="reset">
+</body>
+</html>
